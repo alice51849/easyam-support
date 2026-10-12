@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="light dark">
+<title>Holiday data · EasyAM</title>
+<meta name="description" content="Where the holiday dates in EasyAM come from, and their licences.">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="icon" href="assets/app-icon.png">
+<link rel="alternate" hreflang="en" href="https://alice51849.github.io/easyam-support/data-sources.html">
+<link rel="alternate" hreflang="x-default" href="https://alice51849.github.io/easyam-support/data-sources.html">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar">
+<a class="brand" href="index.html"><img src="assets/app-icon.png" alt="" width="36" height="36"><span>EasyAM</span></a>
+<nav aria-label="Site"><a href="app.html">App</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="data-sources.html" aria-current="page">Holiday data</a><a href="zh-Hant/" hreflang="zh-Hant">繁體中文</a></nav>
+</header>
+<main id="main">
+<h1>Holiday data</h1>
+<p class="lead">Sources, confidence labels and licences.</p>
+<p>EasyAM ships with a bundled holiday dataset for 67 countries (2026 to 2028) and can download newer files from a separate public host that contains only holiday data (<a href="https://alice51849.github.io/holiday-calendar-data/">alice51849.github.io/holiday-calendar-data</a>). Official government publications are used wherever they exist.</p>
+<h2>Confidence labels</h2>
+<ul>
+<li><strong>Verified</strong>: checked against an official publication for that year.</li>
+<li><strong>Rule derived</strong>: computed from statutory rules or an open-source rules engine, because no official calendar for that year was available.</li>
+<li><strong>Uncertain</strong>: sources disagree, or the date depends on an announcement or a moon sighting. An uncertain date never silences an alarm by default.</li>
+</ul>
+<h2>Official sources</h2>
+<div class="scroll"><table><thead><tr><th scope="col">Country</th><th scope="col">Source</th><th scope="col">Licence</th><th scope="col">Attribution</th></tr></thead><tbody><tr><td>TW</td><td>DGPA office calendar via data.gov.tw dataset 14718 (2026, 2027); DGPA announcement pages</td><td>OGDL-TW-1.0; official documents (Copyright Act art. 9)</td><td lang="zh-Hant">行政院人事行政總處「中華民國政府行政機關辦公日曆表」（政府資料開放平臺 data.gov.tw 資料集 14718），依政府資料開放授權條款－第1版提供。行政院人事行政總處辦公日曆表公告（紀念日及節日實施條例節錄；政府公文，著作權法第9條）。</td></tr><tr><td>JP</td><td>Cabinet Office `syukujitsu.csv`</td><td>Public Data License 1.0 (compatible with CC BY 4.0)</td><td lang="ja">出典：内閣府「国民の祝日について」syukujitsu.csv（https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）（2026年10月11日に利用）を加工して作成</td></tr><tr><td>GB</td><td>GOV.UK bank holidays</td><td>Open Government Licence v3.0</td><td lang="en">Contains public sector information licensed under the Open Government Licence v3.0 (GOV.UK bank holidays).</td></tr><tr><td>FR</td><td>calendrier.api.gouv.fr (Etalab / DINUM)</td><td>Licence Ouverte / Open Licence 2.0</td><td lang="fr">Source : Etalab / DINUM, « Jours fériés en France » (calendrier.api.gouv.fr), Licence Ouverte / Open Licence 2.0.</td></tr><tr><td>US</td><td>U.S. Office of Personnel Management, Federal Holidays</td><td>Public domain (17 U.S.C. 105)</td><td lang="en">U.S. Office of Personnel Management, Federal Holidays (U.S. Government work, public domain, 17 U.S.C. 105).</td></tr><tr><td>SG</td><td>Ministry of Manpower via data.gov.sg (2026, 2027)</td><td>Singapore Open Data Licence v1.0</td><td lang="en">Contains information from &#x27;Public Holidays for 2026&#x27; and &#x27;Public Holidays for 2027&#x27; (Ministry of Manpower) accessed on 2026-10-11 from data.gov.sg which is made available under the terms of the Singapore Open Data Licence version 1.0.</td></tr><tr><td>CN</td><td>State Council General Office notice (国办发明电〔2025〕7号), 2026</td><td>Official document (Copyright Law art. 5)</td><td lang="zh-Hans">国务院办公厅《关于2026年部分节假日安排的通知》（国办发明电〔2025〕7号），中国政府网（官方文件，著作权法第五条不适用）。</td></tr><tr><td>KR</td><td>MPM holiday-system page, KASI calendar data; MPM press release 2026-04-29</td><td>Official documents (Copyright Act art. 7); KOGL Type 1</td><td lang="ko">인사혁신처 「공휴일제도」; 한국천문연구원 천문우주정보 달력자료. 인사혁신처 보도자료 「올해부터 노동절, 제헌절 공휴일로」(2026-04-29), 공공누리 제1유형.</td></tr></tbody></table></div>
+<h2>Other sources</h2>
+<ul>
+<li>Holiday rules for countries and years without an official source: python-holidays (Copyright Vacanza Team and individual contributors; MIT License).</li>
+<li>The compiled dataset is published under CC BY 4.0.</li>
+<li>Time zone to country suggestions use the IANA time zone database (public domain). The app does not use location services.</li>
+</ul>
+<h2>Report an error</h2>
+<p>Email <a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a> with the country, the date and a link to the official source.</p>
+</main>
+<footer>
+<p>&copy; 2026 · <a href="mailto:hourstag.app@gmail.com">hourstag.app@gmail.com</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+</footer>
+</body>
+</html>
