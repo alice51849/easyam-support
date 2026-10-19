@@ -63,7 +63,21 @@
 <p>Data stays inside the app’s protected storage on your device. Downloads use HTTPS and are validated before they are used.</p>
 <h2>10. Changes</h2>
 <p>If this policy changes we will update this page and its effective date, and mention material changes in the app’s release notes.</p>
-<h2>11. Contact</h2>
+<h2>11. Android version</h2>
+<p>This section applies to EasyAM for Android, distributed through Google Play. It adds to, and where it differs replaces, the iOS-specific wording above (AlarmKit, Live Activities, Apple Watch and Apple’s purchase handling do not exist on Android). Everything else is the same: no accounts, no ads, no analytics, no tracking, and nothing about you or your alarms is sent to us.</p>
+<ul>
+<li><strong>Alarms:</strong> the app asks Android’s alarm service (AlarmManager) to ring your alarms at the exact time. On Android 13 and later the exact-alarm permission is granted automatically to alarm-clock apps; on Android 12 you may be asked to allow “Alarms &amp; reminders”. It is used only to ring your alarms on time. When an alarm rings the app can show its ringing screen over the lock screen (full-screen notification permission) so you can stop it or snooze it.</li>
+<li><strong>Notifications:</strong> on Android 13 and later the app asks for permission to show notifications. They are generated on your device for the ringing alarm and for holiday notices; there is no push server.</li>
+<li><strong>Restart:</strong> the app listens for the device-restart broadcast (“receive boot completed”) only to schedule your alarms again after the phone restarts or the time, time zone or language changes.</li>
+<li><strong>Widgets:</strong> the home-screen widgets show the next alarm and holiday notice from a small file stored in the app’s own storage on your device. The “sleep in tomorrow” button on the widget acts only inside the app.</li>
+<li><strong>Purchases:</strong> Pro is a one-time purchase made through Google Play and handled entirely by Google. We never see your Google account or payment details; the app only learns from Google Play whether Pro is purchased. Google’s own privacy policy applies to Google Play.</li>
+<li><strong>Rating prompt:</strong> the app may occasionally ask Google Play to show its in-app review dialog. Google shows and handles that dialog; the app does not receive your rating or review.</li>
+<li><strong>Network:</strong> the Internet permission is used only to download the public holiday data files described in section 4 and by Google Play for purchases.</li>
+<li><strong>Backup:</strong> your alarms and settings are stored in the app’s private storage on your device. If you have Android backup turned on, Android may back this data up to your own Google Account and restore it on a new device. That is done by Android under Google’s terms; we cannot access it, and you can turn it off in your device’s system settings. It replaces the Apple backup sentence in section 2.</li>
+<li><strong>Not used:</strong> contacts, photos, camera, microphone, location, the advertising ID, and health data. The app does not read your calendars.</li>
+<li><strong>Google Play Data safety:</strong> the app’s Data safety form states that no user data is collected or shared, which matches this policy.</li>
+</ul>
+<h2>12. Contact</h2>
 <p>hourstag.app@gmail.com</p>
 </main>
 <footer>
