@@ -1,0 +1,17 @@
+# EasyAM: Holiday Alarm Clock support
+
+> Official support, help and privacy pages for EasyAM: Holiday Alarm Clock, an iOS app by Lumi Studio.
+
+- App Store: https://apps.apple.com/app/id6821790092
+- Platform: iOS
+- App Store category: Utilities
+- Developer: Lumi Studio
+
+## Pages
+
+- [Home](https://open.cait518.cc/easyam-support/)
+- [Support and contact](https://open.cait518.cc/easyam-support/support.html)
+- [Privacy policy](https://open.cait518.cc/easyam-support/privacy.html)
+- [Terms of use](https://open.cait518.cc/easyam-support/terms.html)
+
+<!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
