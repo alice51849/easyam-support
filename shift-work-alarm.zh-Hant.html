@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>排班鬧鐘：輪班、隔週、夜班、值班都照班別響</title>
+<meta name="description" content="給輪班族的排班鬧鐘：輪班與隔週模式設定一次就照班別響，夜班、值班、加班日也能加進去，接下來七天哪天要響一眼看清楚。">
+<link rel="canonical" href="https://open.cait518.cc/easyam-support/shift-work-alarm.zh-Hant.html">
+<link rel="alternate" hreflang="en-US" href="https://open.cait518.cc/easyam-support/shift-work-alarm.html">
+<link rel="alternate" hreflang="ja" href="https://open.cait518.cc/easyam-support/shift-work-alarm.ja.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://open.cait518.cc/easyam-support/shift-work-alarm.zh-Hant.html">
+<link rel="alternate" hreflang="x-default" href="https://open.cait518.cc/easyam-support/shift-work-alarm.html">
+<meta property="og:title" content="排班鬧鐘：輪班、隔週、夜班、值班都照班別響">
+<meta property="og:description" content="給輪班族的排班鬧鐘：輪班與隔週模式設定一次就照班別響，夜班、值班、加班日也能加進去，接下來七天哪天要響一眼看清楚。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://open.cait518.cc/easyam-support/shift-work-alarm.zh-Hant.html">
+<meta name="apple-itunes-app" content="app-id=6821790092">
+<style>
+:root{color-scheme:light dark;--bg:#fbfaf7;--fg:#1d1d1f;--muted:#5f6368;--line:rgba(128,128,128,.22);--accent:#2f6fde;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--fg:#ececf0;--muted:#a3a3ab;--card:#1d1d21;--accent:#7aa7ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","PingFang TC","Noto Sans CJK TC","Apple SD Gothic Neo",Roboto,sans-serif}
+a{color:var(--accent)}
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 16px 64px}
+.helpdoc h1{font-size:clamp(26px,4.4vw,36px);line-height:1.3;margin:.2em 0 .4em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.1em 0 .6em;scroll-margin-top:16px}
+.helpdoc h3{font-size:17px;margin:1.5em 0 .35em}
+.helpdoc .lede{font-size:17.5px;color:var(--muted);margin:0 0 1.4em}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 20px}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;text-decoration:none}
+.helpdoc .tbl{overflow-x:auto;margin:.8em 0}
+.helpdoc table{width:100%;border-collapse:collapse;font-size:15px}
+.helpdoc th,.helpdoc td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.helpdoc th{font-weight:650;white-space:nowrap}
+.helpdoc .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:1em 0}
+.helpdoc .cta{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:2.4em 0 1em}
+.helpdoc .cta a.btn{display:inline-block;margin:6px 0;padding:11px 20px;border-radius:999px;background:var(--accent);color:#fff;font-weight:650;text-decoration:none}
+.helpdoc .hd-q{margin:1.4em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-note{font-size:13px;color:var(--muted);margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px}
+.helpdoc ul,.helpdoc ol{padding-left:1.25em}
+.helpdoc li{margin:.3em 0}
+@media print{.hd-nav,.cta,.hd-toc{display:none}body{background:#fff;color:#000}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "排班鬧鐘：輪班、隔週、夜班、值班都照班別響", "description": "給輪班族的排班鬧鐘：輪班與隔週模式設定一次就照班別響，夜班、值班、加班日也能加進去，接下來七天哪天要響一眼看清楚。", "inLanguage": "zh-Hant", "mainEntityOfPage": "https://open.cait518.cc/easyam-support/shift-work-alarm.zh-Hant.html", "dateModified": "2026-10-20", "author": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "publisher": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "about": {"@type": "SoftwareApplication", "name": "EasyAM: 國定假日、連假不響的智慧鬧鐘", "operatingSystem": "iOS", "applicationCategory": "UtilitiesApplication", "url": "https://apps.apple.com/app/id6821790092"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "zh-Hant", "mainEntity": [{"@type": "Question", "name": "輪班模式下載就能用嗎？", "acceptedAnswer": {"@type": "Answer", "text": "下載後有一個鬧鐘。輪班與隔週模式、不限鬧鐘數量、每個鬧鐘各自的假日曆與另外 100 款時鐘主題，以一次性 App 內購買解鎖。"}}, {"@type": "Question", "name": "夜班、值班可以加進去嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以，加成額外上班日，單日或整段日期都行，還能加標籤與圖示。"}}, {"@type": "Question", "name": "只有某一天要提早上班可以嗎？", "acceptedAnswer": {"@type": "Answer", "text": "可以，只改那一天（或連續幾天）的響鈴時間，其他天照舊。"}}, {"@type": "Question", "name": "鬧鐘真的會準時響嗎？", "acceptedAnswer": {"@type": "Answer", "text": "EasyAM 使用 iOS 系統鬧鐘排程，iOS 確認後才顯示鬧鐘已就緒，也可以查看排程狀態。"}}]}</script>
+</head>
+<body>
+<p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">本站由這些 App 的開發者 Lumi Studio 營運，介紹的是我們自己的 App。</p>
+<main class="helpdoc">
+<nav class="hd-nav"><a href="zh-Hant/">支援首頁</a><a href="zh-Hant/support.html">說明與常見問題</a><a href="https://apps.apple.com/tw/app/id6821790092?pt=118326163&amp;ct=bm_easyam_tw_seo&amp;mt=8">EasyAM: 國定假日、連假不響的智慧鬧鐘</a></nav>
+<h1>排班鬧鐘：輪班族不用每週重設</h1>
+<p class="lede">護理師、醫院與工廠輪班、物流、餐飲、保全，每個月班表都不一樣。用內建鬧鐘就得每次排班表出來後一個個改，漏改一天就是遲到或休假被吵醒。EasyAM 的<strong>排班鬧鐘</strong>：透過 App 內購買使用輪班與隔週模式，設定一次就照著班別響；夜班、值班、加班日也能加成額外上班日，接下來七天會不會響一眼看清楚。</p>
+<p><strong>本頁目錄</strong></p>
+<ul class="hd-toc"><li><a href="#why">為什麼內建鬧鐘不適合輪班</a></li><li><a href="#setup">設定步驟</a></li><li><a href="#tools">輪班族常用的功能</a></li><li><a href="#holiday">國定假日照樣處理</a></li><li><a href="#faq">常見問題</a></li></ul>
+<h2 id="why">為什麼內建鬧鐘不適合輪班</h2>
+<p>內建鬧鐘的重複是固定的星期幾，輪班的上班日卻會在一週裡移動。每次新班表一出來就要重改，很容易漏掉。EasyAM 依你輸入一次的模式算出要響的日子，並用七天預覽（iPad 14 天）與行事曆分頁讓你確認。</p>
+<h2 id="setup">設定步驟</h2>
+<ol><li>建立鬧鐘，加上標籤，例如「早班」。</li><li>以一次性 App 內購買解鎖輪班與隔週模式，設定一次你的模式。</li><li>把加班、出差、夜班、值班加成額外上班日，可加標籤與圖示，單日或整段日期都可以。</li><li>特休、病假設成休假，那天早上就安靜不響。</li><li>打開七天預覽或行事曆分頁，確認哪幾天會響。</li></ol>
+<h2 id="tools">輪班族常用的功能</h2>
+<div class="tbl"><table><thead><tr><th>情況</th><th>用這個</th></tr></thead><tbody><tr><td>某幾天上班時間不同</td><td>單日自選響鈴時間，可只改一天，也能連續幾天</td></tr><tr><td>臨時被排加班</td><td>加成額外上班日</td></tr><tr><td>換班後明天放假</td><td>一鍵只跳過下一次</td></tr><tr><td>身兼兩份工作</td><td>最多 12 個自訂類別，名稱、顏色與圖示自己選</td></tr><tr><td>好幾個鬧鐘要一起改</td><td>一次批次修改多個鬧鐘</td></tr></tbody></table></div>
+<h2 id="holiday">國定假日照樣處理</h2>
+<p>內建 67 個國家與地區的假日資料。透過 App 內購買，每個鬧鐘可以有各自的假日曆，例如上班用的鬧鐘照班別響、另一個鬧鐘國定假日休息。資料不明或過舊的日子一律算作上班日，鬧鐘照常響。</p><ul><li>主畫面、鎖定畫面小工具與待機模式都看得到下一次鬧鐘。</li><li>Apple Watch 顯示下一次鬧鐘與接下來七天，手腕上也能跳過明早。</li><li>不需要帳號，沒有廣告、不做分析、不追蹤。</li></ul>
+<div class="cta">
+<p><strong>想直接在 iPhone 上做？</strong> 把班別模式設定一次，看看接下來七天哪幾天會響。</p>
+<p><a class="btn" href="https://apps.apple.com/tw/app/id6821790092?pt=118326163&amp;ct=bm_easyam_tw_seo&amp;mt=8">在 App Store 查看 EasyAM: 國定假日、連假不響的智慧鬧鐘</a></p>
+<p>已經在用 EasyAM: 國定假日、連假不響的智慧鬧鐘？可以到 App Store 留下評分或評論。 <a href="https://apps.apple.com/app/id6821790092?action=write-review">撰寫評論</a></p>
+</div>
+<h2 id="faq">常見問題</h2>
+<p class="hd-q">輪班模式下載就能用嗎？</p>
+<p class="hd-a">下載後有一個鬧鐘。輪班與隔週模式、不限鬧鐘數量、每個鬧鐘各自的假日曆與另外 100 款時鐘主題，以一次性 App 內購買解鎖。</p>
+<p class="hd-q">夜班、值班可以加進去嗎？</p>
+<p class="hd-a">可以，加成額外上班日，單日或整段日期都行，還能加標籤與圖示。</p>
+<p class="hd-q">只有某一天要提早上班可以嗎？</p>
+<p class="hd-a">可以，只改那一天（或連續幾天）的響鈴時間，其他天照舊。</p>
+<p class="hd-q">鬧鐘真的會準時響嗎？</p>
+<p class="hd-a">EasyAM 使用 iOS 系統鬧鐘排程，iOS 確認後才顯示鬧鐘已就緒，也可以查看排程狀態。</p>
+
+
+<h2 id="related">相關教學</h2>
+<ul><li><a href="alarm-that-skips-holidays.zh-Hant.html">國定假日鬧鐘：連假前不用關、收假後不怕忘了開</a></li></ul>
+<p class="hd-note">本頁由 EasyAM: 國定假日、連假不響的智慧鬧鐘 開發者在 AI 協助下撰寫，並對照 App Store 商店頁內容核對。最後更新：2026-10-20。</p>
+</main>
+</body>
+</html>
