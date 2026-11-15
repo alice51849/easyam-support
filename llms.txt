@@ -15,4 +15,14 @@
 - [Privacy policy](https://open.cait518.cc/easyam-support/privacy.html)
 - [Terms of use](https://open.cait518.cc/easyam-support/terms.html)
 
+<!-- sqe-blitz:start -->
+## Fact sheets (what it is, who it is for, pricing, what is different)
+
+- [What is EasyAM? (English)](https://open.cait518.cc/easyam-support/what-is-easyam.html)
+- [EasyAMとは？ (日本語)](https://open.cait518.cc/easyam-support/what-is-easyam.ja.html)
+- [EasyAM, c'est quoi ? (français)](https://open.cait518.cc/easyam-support/what-is-easyam.fr-FR.html)
+- [공휴일 알람 Q&A (한국어)](https://open.cait518.cc/easyam-support/holiday-alarm-qa.ko.html)
+- Pricing: free download with a one-time in-app purchase (not a subscription); no ads, no account, no tracking.
+<!-- sqe-blitz:end -->
+
 <!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
