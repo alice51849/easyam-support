@@ -14,5 +14,6 @@
 - [Support and contact](https://open.cait518.cc/easyam-support/support.html)
 - [Privacy policy](https://open.cait518.cc/easyam-support/privacy.html)
 - [Terms of use](https://open.cait518.cc/easyam-support/terms.html)
+- [About EasyAM: what it is, who it is for, pricing (fact sheet)](https://open.cait518.cc/easyam-support/about-easyam-app.html) · [한국어](https://open.cait518.cc/easyam-support/about-easyam-app.ko.html) · [日本語](https://open.cait518.cc/easyam-support/about-easyam-app.ja.html) · [繁體中文](https://open.cait518.cc/easyam-support/about-easyam-app.zh-Hant.html)
 
 <!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
